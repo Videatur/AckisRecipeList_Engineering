@@ -1900,14 +1900,6 @@ function module:InitializeRecipes()
     recipe:AddFilters(F.CASTER, F.HEALER)
     recipe:AddMobDrop(19219)
 
-    -- Adamantite Arrow Maker -- 43676
-    recipe = AddRecipe(43676, V.TBC, Q.UNCOMMON)
-    recipe:SetSkillLevels(335, 335, 335, 345, 355)
-    recipe:SetRecipeItem(33804, "BIND_ON_PICKUP")
-    recipe:SetCraftedItem(20475, "BIND_ON_EQUIP")
-    recipe:SetItemFilterType("ENGINEERING_CREATED_ITEM")
-    recipe:AddMobDrop(19707)
-
     -- ----------------------------------------------------------------------------
     -- Wrath of the Lich King.
     -- ----------------------------------------------------------------------------
